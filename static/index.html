@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Product Editor</h1>
+    <table id="products-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price (USD)</th>
+          <th>Coverage</th>
+          <th>Deductible</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button id="add-product-btn">Add Product</button>
+    <div id="product-form-modal" class="modal hidden">
+      <form id="product-form">
+        <h2 id="form-title">Edit Product</h2>
+        <input type="hidden" id="product-id">
+        <label>Name: <input type="text" id="product-name" required></label><br>
+        <label>Description: <input type="text" id="product-description" required></label><br>
+        <label>Price (USD): <input type="number" id="product-price" step="0.01" required></label><br>
+        <label>Coverage: <input type="text" id="product-coverage" required></label><br>
+        <label>Deductible: <input type="number" id="product-deductible" required></label><br>
+        <button type="submit">Save</button>
+        <button type="button" id="cancel-btn">Cancel</button>
+      </form>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
