@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Auto Insurance",
+    "description": "Comprehensive coverage for your vehicle",
+    "price": 125.99,
+    "coverage": "Full Coverage",
+    "deductible": 500
+  },
+  {
+    "id": 2,
+    "name": "Home Insurance",
+    "description": "Protect your home and belongings",
+    "price": 89.50,
+    "coverage": "Property & Contents",
+    "deductible": 1000
+  },
+  {
+    "id": 3,
+    "name": "Life Insurance",
+    "description": "Term life insurance for peace of mind",
+    "price": 45.75,
+    "coverage": "$500,000 Coverage",
+    "deductible": 0
+  },
+  {
+    "id": 4,
+    "name": "Health Insurance",
+    "description": "Comprehensive health coverage",
+    "price": 299.99,
+    "coverage": "Individual Plan",
+    "deductible": 2500
+  }
+]
