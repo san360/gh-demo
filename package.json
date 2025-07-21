@@ -1,0 +1,31 @@
+{
+  "name": "insurance-products-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Insurance Products application",
+  "main": "src/frontend/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite serve src/frontend --host 0.0.0.0 --port 3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage"
+  },
+  "keywords": [
+    "insurance",
+    "products",
+    "javascript",
+    "bootstrap",
+    "frontend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@vitest/ui": "^1.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "jsdom": "^23.0.0"
+  }
+}
