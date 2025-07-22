@@ -1,6 +1,7 @@
 ---
 mode: 'agent'
 model: Claude Sonnet 4
+tools: ['codebase', 'editFiles']
 description: 'Perform a REST API security review'
 ---
 
